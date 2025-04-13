@@ -1,0 +1,54 @@
+{
+  "BankDetails": {
+    "Bank A/C:": "35561950840",
+    "Bank IFSC": "SBIN0061798",
+    "Bank Name:": "State Bank Of India",
+    "Branch": "SME Ganapathy Branch Coimbatore."
+  },
+  "CompanyDetails": {
+    "Address": "No.272/1, , Thondamuthur Main Road,.Vembu Avenue Junction No.272/1,Thondamuthur Main Road,",
+    "Contact": [
+      "Mobile : 9788851751",
+      "Phone :"
+    ],
+    "Email": "",
+    "GSTIN": "33AABCA8403B1ZF",
+    "Name": "Jaikrishnaa Auto Pvt Ltd-E10057",
+    "PAN": "",
+    "Specializations": [],
+    "UDYAM": ""
+  },
+  "InvoiceDetails": {
+    "Code": "33",
+    "Date": "23/11/2024",
+    "InvoiceNo": "LCI100572415051",
+    "P.O.no": "",
+    "RABillNo": "",
+    "State": "Tamil Nadu",
+    "WorkOrderNo": ""
+  },
+  "ReceiverDetails": {
+    "Address": "NO.18A, VASUKI STREET,THONDAMUTHUR Coimbatore 641109",
+    "Code": "33",
+    "GSTIN": "CUS-1005749143",
+    "Name": "NISHANTH.K.R",
+    "State": "Tamil Nadu"
+  },
+  "ServiceDetails": [
+    {
+      "Amount": "1000",
+      "Description": "Labour Charges: Service & Maintenance (2.5 hours)",
+      "SACCode": "Service Charges"
+    },
+    {
+      "Amount": "401",
+      "Description": "Parts Used ( Labour, Oil, Filter, Vehicle Polishing, etc.)",
+      "SACCode": "Parts Used"
+    }
+  ],
+  "TotalAmount": {
+    "AfterTax": "1401",
+    "BeforeTax": "1401",
+    "InWords": "One Thousand Four Hundred One Only."
+  }
+}
