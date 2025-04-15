@@ -226,7 +226,7 @@ export default function Pricing() {
                 <ul className="space-y-4 mb-6">
                   <li className="flex items-center">
                     <i className="ri-checkbox-circle-line text-sm text-purple-600 mr-2"></i>{" "}
-                    Extends features from Explore
+                    Extends features of Explore
                   </li>
                   <li className="flex items-center">
                     <i className="ri-checkbox-circle-line text-sm text-purple-600 mr-2"></i>{" "}
@@ -302,7 +302,7 @@ export default function Pricing() {
                   </li>
                   <li className="flex items-center">
                     <i className="ri-checkbox-circle-line text-sm text-teal-600 mr-2"></i>{" "}
-                    Post processing(Custom logic)
+                    Post process(Custom logic)
                   </li>
                   <li className="flex items-center">
                     <i className="ri-checkbox-circle-line text-sm text-teal-600 mr-2"></i>{" "}
@@ -349,7 +349,7 @@ export default function Pricing() {
                 <ul className="space-y-4 mb-6">
                   <li className="flex items-center">
                     <i className="ri-checkbox-circle-line text-sm text-teal-600 mr-2"></i>{" "}
-                    All features from Power - plus
+                    All features of Power - plus
                   </li>
                   <li className="flex items-center">
                     <i className="ri-checkbox-circle-line text-sm text-teal-600 mr-2"></i>{" "}

@@ -286,7 +286,7 @@ const OcrDemo = () => {
     CompanyDetails: {
       Address:
         "No.272/1, Thondamuthur Main Road, Vembu Avenue Junction, No.272/1, Thondamuthur Main Road",
-      Contact: ["Mobile : 9788851751", "Phone :"],
+      Contact: ["Mobile : 9788851751", "Phone :9788851751"],
       GSTIN: "33AABCA8403B1ZF",
       Name: "Jaikrishnaa Auto Pvt Ltd-E10057",
     },
@@ -318,7 +318,7 @@ const OcrDemo = () => {
     ],
     TotalAmount: {
       AfterTax: "1401",
-      BeforeTax: "1401",
+      BeforeTax: "1187.50",
       InWords: "One Thousand Four Hundred One Only.",
     },
   };

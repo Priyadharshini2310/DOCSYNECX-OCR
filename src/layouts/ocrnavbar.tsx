@@ -329,7 +329,7 @@ export default function OcrNavbar() {
     <nav className="bg-white/30 backdrop-blur-md fixed max-w-screen w-screen z-10 shadow-lg h-20 flex items-center">
       <div className="w-full px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 mx-4 md:mx-4">
-          <Link href="/" className="flex items-center">
+          <Link href="/" className="flex items-start -ml-3">
             <Image src="/docsynecx-logo.png" alt="Logo" width={220} height={80} priority />
           </Link>
 
