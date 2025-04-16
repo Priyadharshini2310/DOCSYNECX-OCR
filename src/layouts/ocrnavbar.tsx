@@ -330,7 +330,7 @@ export default function OcrNavbar() {
       <div className="w-full px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 mx-4 md:mx-4">
           <Link href="/" className="flex items-start -ml-3">
-            <Image src="/docsynecxlogo.png" alt="DocsynecX Logo" width={220} height={80} priority />
+            <Image src="/docsynecxlogo.png" alt="DocsynecX Logo" width={180} height={80} priority />
           </Link>
 
           {/* Desktop Navigation */}

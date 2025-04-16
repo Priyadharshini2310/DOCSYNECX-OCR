@@ -25,6 +25,8 @@ export default function OcrContactInfo() {
           <h3 className="text-lg font-semibold mb-2 mt-3 sm:mt-10">Call us</h3>
           <p className="text-gray-600 mb-2 ">Mon-Fri from 9am to 6pm.</p>
           <p className="text-black font-semibold">0422 2212342</p>
+          <p className="text-gray-600 mt-2">For Whatsapp</p>
+          <p className="text-black font-semibold">+91 93447 76623</p>
         </div>
 
         {/* Address Section */}
@@ -32,7 +34,7 @@ export default function OcrContactInfo() {
           <FaMapMarkerAlt className="text-teal-500 text-3xl mb-4 " />
           <h3 className="text-lg font-semibold mb-2 mt-3 sm:mt-10">Meet us</h3>
           <p className="text-gray-600 mb-2">Visit our Office</p>
-          <p className="text-black font-semibold">Kanuvai , Coimbatore 641108</p>
+          <p className="text-black font-semibold">Coimbatore, India 641108</p>
         </div>
       </div>
      </div>
