@@ -142,7 +142,7 @@ export default function Pricing() {
               </div>
               <div className="p-6 text-gray-700">
                 <div className="text-3xl font-bold text-gray-900">
-                  {activeTab === "monthly" ? "$75" : "$70"}
+                  {activeTab === "monthly" ? "$85" : "$77"}
                   <sub className="text-sm text-gray-500">
                     / Per {activeTab === "monthly" ? "Month" : "Month"}
                   </sub>
