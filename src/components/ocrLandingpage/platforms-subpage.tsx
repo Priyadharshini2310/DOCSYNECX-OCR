@@ -140,11 +140,11 @@ const PlatformSubPage: React.FC<PlatformSubPageProps> = ({ }) => {
               // <li key={index} className={`flex -ml-2 items-center justify-between p-3 md:p-2 font-medium text-gray-900 rounded-md transition-all duration-300`}>
               //   {item}
               // </li>
-              <div key={index}
+              (<div key={index}
               className="hover:bg-gray-100  cursor-pointer px-2 text-gray-800 font-medium hover:shadow-md transition flex items-center gap-3"
             >
-              <span className="text-base py-4 text-black">{item}</span>
-            </div>
+                <span className="text-base py-4 text-black">{item}</span>
+              </div>)
             ))}
           </ul>
         </div>

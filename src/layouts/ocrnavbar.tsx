@@ -329,7 +329,7 @@ export default function OcrNavbar() {
     <nav className="bg-white/30 backdrop-blur-md fixed max-w-screen w-screen z-10 shadow-lg h-20 flex items-center">
       <div className="w-full px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 mx-4 md:mx-4">
-          <Link href="/" className="flex items-start -ml-3">
+          <Link href="/" className="flex items-start -ml-3" >
             <Image src="/docsynecxlogo.png" alt="DocsynecX Logo" width={180} height={80} priority />
           </Link>
 
@@ -353,7 +353,7 @@ export default function OcrNavbar() {
           </div>
 
           {/* CTA */}
-          <Link href="/#ocrlancontact">
+          <Link href="/#ocrlancontact" >
             <button className="bg-black text-white h-10 w-32 rounded-md p-1 hidden sm:block">Request Demo</button>
           </Link>
 
@@ -365,7 +365,6 @@ export default function OcrNavbar() {
           </div>
         </div>
       </div>
-
       {/* Mobile Menu */}
       <div className={`${isOpen ? "block" : "hidden"} md:hidden absolute top-20 left-0 w-full bg-white/90 backdrop-blur-lg shadow-lg z-50`}>
         <div className="px-4 pt-4 pb-6 space-y-4">
@@ -412,7 +411,7 @@ export default function OcrNavbar() {
           <Link href="/pricing" onClick={() => setIsOpen(false)} className="block text-gray-700 font-bold">Pricing</Link>
           <Link href="/#ocrlancontact " onClick={() => setIsOpen(false)} className="block text-gray-700 font-bold">Contact</Link>
           {/* CTA */}
-          <Link href="/#ocrlancontact">
+          <Link href="/#ocrlancontact" >
             <button className="block w-full px-4 py-2 border border-black rounded-md shadow-sm text-sm font-semibold text-black mt-2">
               Demo Now
             </button>

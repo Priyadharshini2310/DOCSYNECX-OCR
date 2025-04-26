@@ -41,13 +41,13 @@ const OcrFooter = () => {
         {/* Logo and Description */}
         <div className="w-full sm:w-auto text-center sm:text-left flex-shrink-0 sm:ml-20 ml-0 mt-18 mb-6 sm:mb-0 sm:mr-20 mr-0">
           <Image
-            src="/docsynecx-logo.png"
+            src="/docsynecxlogo.png"
             alt="Company Logo"
-            height={220}
-            width={220}
+            height={180}
+            width={190}
             className="mx-auto sm:mx-0 mt-0 sm:-mt-20"
           />
-          <p className="mb-6 text-sm md:text-base max-w-xs transition-colors duration-300 hover:text-black  text-center sm:text-left mx-3 sm:mx-0">
+          <p className="mb-6 text-sm md:text-base max-w-xs transition-colors duration-300 hover:text-black  text-center sm:text-left mx-3 sm:mx-0 sm:mt-6 mt-3">
           AI OCR Software — accelerate with AI-powered 
           Intelligent Document Processing, automation, & developer-friendly APIs.
           </p>

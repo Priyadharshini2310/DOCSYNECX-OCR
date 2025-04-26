@@ -25,12 +25,12 @@
 //         </p>
 //         {/* Buttons */}
 //         <div className="flex flex-col sm:flex-row justify-start space-y-4 sm:space-y-0 sm:space-x-4 pb-4">
-//           <Link href="/contact#demo" legacyBehavior>
+//           <Link href="/contact#demo" >
 //             <a className="bg-black text-white px-6 py-3 rounded-lg flex items-center justify-center">
 //               Get Your Demo
 //             </a>
 //           </Link>
-//           <Link href="/contact" legacyBehavior>
+//           <Link href="/contact" >
 //             <a className="bg-white border border-gray-400 text-gray-900 px-6 py-3 rounded-lg flex items-center justify-center hover:bg-black hover:text-white">
 //               Contact
 //             </a>
@@ -81,15 +81,15 @@ const OcrIndex = () => {
         </p>
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4 pb-4">
-          <Link href="/#ocrlancontact" legacyBehavior>
-            <a className="bg-black text-white px-6 py-3 rounded-lg flex items-center justify-center hover:bg-gray-800 transition duration-300">
+          <Link href="/#ocrlancontact" 
+             className="bg-black text-white px-6 py-3 rounded-lg flex items-center justify-center hover:bg-gray-800 transition duration-300">
               Request for Demo
-            </a>
+         
           </Link>
-          <Link href="#ocrlancontact" legacyBehavior>
-            <a className="bg-white border border-gray-400 text-gray-900 px-6 py-3 rounded-lg flex items-center justify-center hover:bg-black hover:text-white transition duration-300">
+          <Link href="#ocrlancontact" 
+            className="bg-white border border-gray-400 text-gray-900 px-6 py-3 rounded-lg flex items-center justify-center hover:bg-black hover:text-white transition duration-300">
               Contact
-            </a>
+          
           </Link>
         </div>
       </div>

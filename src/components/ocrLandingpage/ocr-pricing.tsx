@@ -114,7 +114,7 @@ export default function Pricing() {
                     Email support
                   </li>
                 </ul>
-                <Link href="/">
+                {/* <Link href="app.docsynecx.com" target="_blank">
                   <button className="group relative w-full py-2 bg-teal-600 text-white rounded-md border border-transparent hover:bg-white hover:text-teal-600 hover:border-teal-600 transition">
                     <span className="block group-hover:hidden">
                       Choose Plan
@@ -123,7 +123,22 @@ export default function Pricing() {
                       Explore Now
                     </span>
                   </button>
-                </Link>
+                </Link> */}
+
+                <a
+                  href="https://app.docsynecx.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="group relative w-full py-2 bg-teal-600 text-white rounded-md border border-transparent hover:bg-white hover:text-teal-600 hover:border-teal-600 transition">
+                    <span className="block group-hover:hidden">
+                      Choose Plan
+                    </span>
+                    <span className="hidden group-hover:block font-semibold">
+                      Explore Now
+                    </span>
+                  </button>
+                </a>
               </div>
             </div>
           )}
