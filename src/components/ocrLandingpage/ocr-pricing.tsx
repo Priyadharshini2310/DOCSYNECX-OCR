@@ -132,10 +132,10 @@ export default function Pricing() {
                 >
                   <button className="group relative w-full py-2 bg-teal-600 text-white rounded-md border border-transparent hover:bg-white hover:text-teal-600 hover:border-teal-600 transition">
                     <span className="block group-hover:hidden">
-                      Choose Plan
+                      Free Trail Available
                     </span>
                     <span className="hidden group-hover:block font-semibold">
-                      Explore Now
+                      Try Now
                     </span>
                   </button>
                 </a>

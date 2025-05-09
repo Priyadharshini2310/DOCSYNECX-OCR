@@ -178,6 +178,7 @@
 //     </nav>
 //   );
 // }
+
 "use client";
 import React, { useState, useEffect, useMemo, useRef } from "react";
 import Image from "next/image";
@@ -187,6 +188,7 @@ import { FaChevronDown, FaTimes } from "react-icons/fa";
 import { FiMenu } from "react-icons/fi";
 import SolutionSubPage from "@/components/ocrLandingpage/solutions-subpage";
 import PlatformSubPage from "@/components/ocrLandingpage/platforms-subpage";
+import { AnimatedModalDemo } from "@/components/ui/text-animate";
 
 type DropdownState = {
   solutions: boolean;
@@ -352,10 +354,12 @@ export default function OcrNavbar() {
             <Link href="/#ocrlancontact" className="text-sm font-bold text-gray-600 hover:text-black">Contact</Link>
           </div>
 
-          {/* CTA */}
-          <Link href="/#ocrlancontact" >
-            <button className="bg-black text-white h-10 w-32 rounded-md p-1 hidden sm:block">Request Demo</button>
-          </Link>
+          
+          {/* <Link href="/#ocrlancontact" >
+            <button className="bg-black text-white h-10 w-32 rounded-md p-1 hidden sm:block"> </button>
+          </Link> */}
+
+           <AnimatedModalDemo />
 
           {/* Mobile Toggle */}
           <div className="md:hidden">

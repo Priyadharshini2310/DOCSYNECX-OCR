@@ -1,16 +1,116 @@
-import OcrHome from '@/components/ocrLandingpage/ocr-home'
-import React from 'react'
-import { Metadata } from 'next'
+import OcrHome from "@/components/ocrLandingpage/ocr-home";
+import React from "react";
+import { Metadata } from "next";
 
-export const metadata = ({ title : "docsynecx - Intelligent document processing AI Platform",description: "“docsynecx” -Automate data extraction, classification, and organize the data from various document types invoice processing, receipts, bill of landing, including structured, semi-structured, and unstructured data, using technologies like AI, machine learning, and OCR. | docsynecx.com",
+
+export const metadata = {
+  title: "docsynecx - Intelligent document processing AI Platform",
+  description:
+    "“docsynecx” -Automate data extraction, classification, and organize the data from various document types invoice processing, receipts, bill of landing, including structured, semi-structured, and unstructured data, using technologies like AI, machine learning, and OCR. | docsynecx.com",
   keywords: [
-    "OCR Platform", "Intelligent Document Processing Solutions", "RPA Intelligent Automation", "Automation Document Software", "What is OCR", "IDP Platform", "Business Process Automation", "Process Automation Tools", "OCR Tools", "Document Processing Tools", "RPA Automation", "Intelligent Document Processing IDP", "Automation Intelligent", "Document Processing with AI", "SAP Softwares", "Invoice Software", "Document Automation Software", "Best RPA Software", "Extract Data", "Intelligent Automation RPA", "Automated Data Processing", "OCR Document Processing", "Automation Services", "Document Processing Software", "Automate Software", "AI", "Digital Process Automation", "OCR System", "What is IDP", "OCR", "IDP Tools", "Automated Solutions", "Software Invoicing", "RPA Software", "Document Software", "Business Document Processing", "Intelligent Document Processing Platform", "Data Automation", "Processing Document", "Intelligent Invoice Processing", "RPA Platform", "AI OCR", "Document Processing AI", "AI for Document Processing", "Document Processing Management", "IDP Intelligent Document Processing", "Automating Software", "AI Automated Intelligence", "Best Intelligent Document Processing Software", "RPA", "Automation Tool", "LLM Field Extraction", "Intelligent Document Processing Automation", "Intelligent Document Processing Solution", "Process Invoices", "AI Automation Tools", "Software RPA", "Processing Documents", "Automating Processes", "ERP Softwares", "Workflow Integration", "Invoice Processing", "Data Classification", "Data Extracter", "Best Document Automation Software", "Document Processing Solution", "Intelligent Document Processing", "Automated Extraction", "Process Documents", "IDP Solution", "AI Document Processing", "Data Extracts", "OCR Service", "Invoicing Processing", "Business Automation", "Contextual Understanding", "Software Automation", "IDP AI", "Automation Solution", "Document Processing Services", "Intelligent Document Processing Tools", "Invoice Extraction", "Document Management", "Automated Document Processing", "OCR Software", "Automated OCR", "Data Migration Software", "Automation in Industry", "Software Document Automation", "Automation Software", "Document Processing Platform", "Document Processing Solutions", "Automate Document Processing", "Document Processing System"
-
-  ]}) as Metadata
+    "OCR Platform",
+    "Intelligent Document Processing Solutions",
+    "RPA Intelligent Automation",
+    "Automation Document Software",
+    "What is OCR",
+    "IDP Platform",
+    "Business Process Automation",
+    "Process Automation Tools",
+    "OCR Tools",
+    "Document Processing Tools",
+    "RPA Automation",
+    "Intelligent Document Processing IDP",
+    "Automation Intelligent",
+    "Document Processing with AI",
+    "SAP Softwares",
+    "Invoice Software",
+    "Document Automation Software",
+    "Best RPA Software",
+    "Extract Data",
+    "Intelligent Automation RPA",
+    "Automated Data Processing",
+    "OCR Document Processing",
+    "Automation Services",
+    "Document Processing Software",
+    "Automate Software",
+    "AI",
+    "Digital Process Automation",
+    "OCR System",
+    "What is IDP",
+    "OCR",
+    "IDP Tools",
+    "Automated Solutions",
+    "Software Invoicing",
+    "RPA Software",
+    "Document Software",
+    "Business Document Processing",
+    "Intelligent Document Processing Platform",
+    "Data Automation",
+    "Processing Document",
+    "Intelligent Invoice Processing",
+    "RPA Platform",
+    "AI OCR",
+    "Document Processing AI",
+    "AI for Document Processing",
+    "Document Processing Management",
+    "IDP Intelligent Document Processing",
+    "Automating Software",
+    "AI Automated Intelligence",
+    "Best Intelligent Document Processing Software",
+    "RPA",
+    "Automation Tool",
+    "LLM Field Extraction",
+    "Intelligent Document Processing Automation",
+    "Intelligent Document Processing Solution",
+    "Process Invoices",
+    "AI Automation Tools",
+    "Software RPA",
+    "Processing Documents",
+    "Automating Processes",
+    "ERP Softwares",
+    "Workflow Integration",
+    "Invoice Processing",
+    "Data Classification",
+    "Data Extracter",
+    "Best Document Automation Software",
+    "Document Processing Solution",
+    "Intelligent Document Processing",
+    "Automated Extraction",
+    "Process Documents",
+    "IDP Solution",
+    "AI Document Processing",
+    "Data Extracts",
+    "OCR Service",
+    "Invoicing Processing",
+    "Business Automation",
+    "Contextual Understanding",
+    "Software Automation",
+    "IDP AI",
+    "Automation Solution",
+    "Document Processing Services",
+    "Intelligent Document Processing Tools",
+    "Invoice Extraction",
+    "Document Management",
+    "Automated Document Processing",
+    "OCR Software",
+    "Automated OCR",
+    "Data Migration Software",
+    "Automation in Industry",
+    "Software Document Automation",
+    "Automation Software",
+    "Document Processing Platform",
+    "Document Processing Solutions",
+    "Automate Document Processing",
+    "Document Processing System",
+  ],
+} as Metadata;
 const page = () => {
   return (
-    <div className='bg-white text-black'><OcrHome /></div>
-  )
-}
+    <div className="bg-white text-black">
+      <OcrHome />
+    
+    </div>
+  );
+};
 
-export default page
+export default page;
